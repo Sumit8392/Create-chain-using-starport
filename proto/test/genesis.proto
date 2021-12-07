@@ -1,0 +1,11 @@
+syntax = "proto3";
+package demo.test.test;
+
+// this line is used by starport scaffolding # genesis/proto/import
+
+option go_package = "github.com/demo/test/x/test/types";
+
+// GenesisState defines the test module's genesis state.
+message GenesisState {
+    // this line is used by starport scaffolding # genesis/proto/state
+}
